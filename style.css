@@ -5,7 +5,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 /* reuseable css */
@@ -628,3 +628,51 @@ td {
     color: #ffffff;
     background-color: #252525;
   }
+  /* footer section */
+  /* footer section */
+footer {
+    background: rgb(34, 34, 34);
+}
+
+.footer {
+    padding-top: 30px;
+    display: flex;
+    gap: 8%;
+
+}
+
+footer .footer-col-1 {
+    max-width: 40%;
+}
+.footer-col-2 h1,.footer-col-3 h1{
+font-size: 30px;
+}
+footer .footer-col-2 {
+
+    max-width: 22%;
+}
+
+footer .footer-col-3 {
+    max-width: 20%;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3 {
+    margin-bottom: 30px;
+}
+
+footer .footer-col-1 h1 {
+    color: #e6533c;
+}
+
+.footer .common-footer li {
+    list-style: none;
+    list-style-type: none;
+    color: #ffffff80;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 5px;
+}

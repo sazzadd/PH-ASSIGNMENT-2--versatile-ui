@@ -1,0 +1,146 @@
+@media (max-width: 576px) {
+    .hide {
+        display: none;
+    }
+
+    .sec-container {
+        max-width: 576px;
+        margin: 0 auto;
+        box-sizing: border-box;
+
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger i {
+        color: white;
+        margin-top: 8px;
+        font-size: 30px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .navbar-wrpper {
+        padding-left: 15px;
+    }
+
+    /* banner */
+    .banner-left h1 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 900;
+        width: 274px;
+    }
+
+    .banner-left p {
+        width: 274px;
+    }
+
+    .banner-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner-box-2 {
+        position: absolute;
+        right: 24px;
+        top: 186px;
+    }
+
+    .banner-box-1 {
+        position: absolute;
+        left: 23px;
+        bottom: 54px;
+    }
+
+    .banner-wrapper {
+        flex-direction: column;
+        height: 1050px;
+        padding-left: 15px;
+    }
+
+    .title-des-container {
+        width: 80%;
+    }
+
+    /* habit */
+    .habit-item-container {
+        flex-direction: column;
+    }
+
+    .extra-miles {
+        flex-direction: column;
+        height: 660px;
+    }
+
+    .bmi-heading {
+        padding: 50px 0;
+        width: 380px;
+    }
+
+    /* calculator */
+    /* cahrt */
+    .cal {
+        flex-direction: column;
+        padding: 60px 0;
+        height: 900px;
+    }
+
+    .cal-right {
+        width: 0px;
+    }
+
+    .cal-right-content {
+        width: 334px;
+        height: 150px;
+        margin: 0;
+    }
+
+    .calculetor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /*  input field*/
+    .input-row-1,
+    .input-row-2,
+    .input-row-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .cal-right .btn {
+        padding: 6px 28px;
+    }
+
+    .input-field-2 {
+        width: 230px;
+    }
+
+    .team-member-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 30px;
+        gap: 20px;
+    }
+
+    /* team section */
+    /* .member-card {
+        margin-bottom: 59px;
+    } */
+
+    .member-card {
+        width: 300px;
+    }
+
+}

@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* maima font */
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+/* reuseable css */
+.sec-container {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+/* title-des-container */
+.title-des-container {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+
+h1 {
+    color: rgb(255, 244, 244);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.bg1 {
+    background: rgb(0, 0, 0);
+}
+
+.title-des-container h1 {
+    color: rgb(255, 244, 244);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+
+    text-align: center;
+
+    padding-bottom: 10px;
+}
+
+.title-des-container p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+*/ .myButton {
+    box-shadow: inset 0px 0px 15px 3px #23395e;
+    background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+    background-color: #e6533c;
+    border-radius: 17px;
+    border: 1px solid #662c23;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 6px 13px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #263666;
+}
+
+.btn {
+    background: #e6533c;
+    padding: 12px 28px;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.banner-wrapper {
+    height: 715px;
+    display: flex;
+    gap: 100px;
+}
+
+/* header */
+header {
+    background: linear-gradient(180deg, rgba(62, 74, 74, 1) 0%, rgb(42 42 42 / 99%) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+
+/* top menu */
+.navbar-wrpper {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.menu {
+    margin-left: -100px;
+}
+
+.menu ul {
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px 7px;
+    border-radius: 38px;
+    justify-content: flex-end;
+
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 0 8px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.menu ul li a:hover {
+    background-color: #e6533c;
+    padding: 7px 19px;
+    border-radius: 38px;
+    transition: 1s;
+}
+
+.active {
+    background-color: #e6533c;
+    padding: 7px 19px;
+    border-radius: 38px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.brand-name h1 {
+    color: #e6533c;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+/* banner section */
+.banner-left h1 {
+    width: 500px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-top: 60px;
+}
+
+.banner-left h1 span {
+    font-family: 'Miama', sans-serif;
+    font-size: 78px;
+}
+
+.banner-left p {
+    width: 500px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+/*  banner box*/
+.banner-right {
+    position: relative;
+}
+
+.banner-box {
+    width: 200px;
+    height: 81px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    gap: 10px;
+    padding: 4px;
+}
+
+.banner-box .circle {
+    width: 30px;
+    height: 30px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+
+.banner-box h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.banner-box p {
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-box-1 {
+    position: absolute;
+    left: -55px;
+    bottom: 199px;
+}
+
+.banner-box-2 {
+    position: absolute;
+    right: -55px;
+    top: 200px;
+}
+
+.banner-wrapper {}
+
+/* habbit */
+
+.habit-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 60px;
+}
+
+.habit-item {
+    width: 170px;
+    height: 275px;
+
+}
+
+.habit-img {
+    width: 160px;
+    height: 153px;
+    border-radius: 50%;
+    border: 3px solid #ffffff80;
+    margin-bottom: 25px;
+}
+
+.habit-item h6 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.habit-item p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.habit .title-des-container {
+    margin-top: 50px;
+}
+
+/* extra miles */
+.extra-miles {
+    max-width: 1060px;
+    height: 370px;
+
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+.extra-miles img {
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+.extra-miles-content {
+    height: 360px;
+    width: 380px;
+    padding: 20px;
+
+
+}
+
+.extra-miles-content p {
+    margin-bottom: 40px;
+}
+
+.extra-miles-content .btn {
+    margin-top: 30px;
+}
+
+.extra-miles-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bmi-heading {
+    padding: 50px 0;
+    width: 500px;
+}
+
+/* calculator section */
+
+
+.cal-right-content {
+    width: 500px;
+    height: 150px;
+    padding: 40px auto;
+}
+
+.cal-header-content p {
+    margin-bottom: 60px;
+}
+
+.calculetor {
+    background: rgb(34, 34, 34);
+    height: 100%;
+    width: 100%;
+
+
+}
+
+/* calculator table chart */
+.cal {
+    height: 410px;
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    margin-top: 40px;
+    border-collapse: collapse;
+    width: 300px;
+    /* Total width of two columns */
+}
+
+th {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    text-align: left;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #ffffff1a;
+    ;
+    text-align: left;
+    padding: 10px;
+    width: 150px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+
+    /* Width of each column */
+}
+
+.cal-right {
+    width: 500px;
+}
+
+.cal h3 {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.cal-right .btn {
+    margin-top: 20px;
+}
+
+/*input field  */
+.input-row-1,
+.input-row-2,
+.input-row-3 {
+    display: flex;
+    gap: 10px;
+
+}
+
+.input-field {
+    background-color: #ffffff1a;
+    width: 230px;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+}
+
+.input-field-2 {
+    background-color: #ffffff1a;
+    width: 480px;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+}
+
+/* team */
+/* team */
+.team-content {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+
+.team {
+    background: #000000;
+}
+
+.team-member-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
+    gap: 10px;
+}
+
+.member {
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+.member-card {
+    position: relative;
+    width: 310px;
+    height: 272px;
+    border-radius: 20px;
+}
+
+.member-card h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.member-card p {
+    margin: 0;
+    padding: 0;
+}
+
+.member-card {
+    margin-bottom: 20px;
+}
+
+.member-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.card-content {
+    position: absolute;
+    bottom: 8%;
+    left: 8%;
+}

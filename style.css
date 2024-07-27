@@ -5,7 +5,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* reuseable css */
@@ -61,10 +61,10 @@ p {
     text-align: center;
 }
 
-*/ .myButton {
+ .myButton {
     box-shadow: inset 0px 0px 15px 3px #23395e;
     background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
-    background-color: #e6533c;
+    background-color: #2f2a29;
     border-radius: 17px;
     border: 1px solid #662c23;
     display: inline-block;
@@ -76,7 +76,11 @@ p {
     text-decoration: none;
     text-shadow: 0px 1px 0px #263666;
 }
-
+.btn:hover{
+    background-color:#ffffff1a;
+    border: 1px solid  #e6533c;
+    color: #e6533c;
+}
 .btn {
     background: #e6533c;
     padding: 12px 28px;
@@ -90,6 +94,21 @@ p {
     margin-top: 50px;
     text-decoration: none;
 }
+.btn2{
+    background-color:#ffffff1a;
+    padding: 12px 28px;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 50px;
+    text-decoration: none;
+    border: 1px solid white;
+    margin-left: 10px;
+}
 
 .banner-wrapper {
     height: 715px;
@@ -99,7 +118,7 @@ p {
 
 /* header */
 header {
-    background: linear-gradient(180deg, rgba(62, 74, 74, 1) 0%, rgb(42 42 42 / 99%) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(180deg, rgba(62, 74, 74, 1) 0%, #2a2a2afc 0%, rgba(0, 0, 0, 1) 100%);
 }
 
 
@@ -117,7 +136,7 @@ header {
 
 .menu ul {
     display: flex;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid #ffffff1a;
     padding: 8px 7px;
     border-radius: 38px;
     justify-content: flex-end;
@@ -200,7 +219,7 @@ header {
     align-items: center;
     border-radius: 12px;
     backdrop-filter: blur(20px);
-    background: rgba(48, 48, 48, 0.54);
+    background: hsla(0, 0%, 19%, 0.54);
     gap: 10px;
     padding: 4px;
 }

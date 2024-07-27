@@ -338,6 +338,9 @@ header {
     height: 150px;
     padding: 40px auto;
 }
+.cal-right .btn{
+    margin-top: 10px;
+}
 
 .cal-header-content p {
     margin-bottom: 60px;
@@ -422,6 +425,10 @@ td {
     margin-bottom: 10px;
     border: none;
     padding: 5px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .input-field-2 {
@@ -432,6 +439,10 @@ td {
     margin-bottom: 20px;
     border: none;
     padding: 10px;
+    color: rgb(194 193 193 / 50%);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 /* team */

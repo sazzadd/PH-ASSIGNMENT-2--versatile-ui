@@ -11,7 +11,13 @@
 /* reuseable css */
 .sec-container {
     max-width: 1060px;
+    /* max-width: 80%; */
     margin: 0 auto;
+}
+
+/* body */
+body {
+    background-color: #000000;
 }
 
 /* title-des-container */
@@ -61,7 +67,7 @@ p {
     text-align: center;
 }
 
- .myButton {
+.myButton {
     box-shadow: inset 0px 0px 15px 3px #23395e;
     background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
     background-color: #2f2a29;
@@ -76,11 +82,13 @@ p {
     text-decoration: none;
     text-shadow: 0px 1px 0px #263666;
 }
-.btn:hover{
-    background-color:#ffffff1a;
-    border: 1px solid  #e6533c;
+
+.btn:hover {
+    background-color: #ffffff1a;
+    border: 1px solid #e6533c;
     color: #e6533c;
 }
+
 .btn {
     background: #e6533c;
     padding: 12px 28px;
@@ -94,8 +102,9 @@ p {
     margin-top: 50px;
     text-decoration: none;
 }
-.btn2{
-    background-color:#ffffff1a;
+
+.btn2 {
+    background-color: #ffffff1a;
     padding: 12px 28px;
     color: #ffffff;
     font-family: Inter;
@@ -222,6 +231,7 @@ header {
     background: hsla(0, 0%, 19%, 0.54);
     gap: 10px;
     padding: 4px;
+    border: 1px solid rgb(112, 108, 108);
 }
 
 .banner-box .circle {
@@ -229,6 +239,10 @@ header {
     height: 30px;
     background: rgb(230, 83, 60);
     border-radius: 50%;
+}
+
+.fa-play {
+    padding: 6px 0px 6px 6px;
 }
 
 .banner-box h1 {
@@ -250,6 +264,7 @@ header {
     position: absolute;
     left: -55px;
     bottom: 199px;
+    gap: 0px;
 }
 
 .banner-box-2 {
@@ -357,7 +372,8 @@ header {
     height: 150px;
     padding: 40px auto;
 }
-.cal-right .btn{
+
+.cal-right .btn {
     margin-top: 10px;
 }
 
@@ -428,6 +444,8 @@ td {
 }
 
 /*input field  */
+
+
 .input-row-1,
 .input-row-2,
 .input-row-3 {
@@ -452,8 +470,8 @@ td {
 
 .input-field-2 {
     background-color: #ffffff1a;
-    width: 480px;
-    height: 35px;
+    width: 491px;
+    height: 41px;
     border-radius: 5px;
     margin-bottom: 20px;
     border: none;
@@ -462,6 +480,11 @@ td {
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
+}
+
+.s1 {
+    width: 240px;
+    height: 45px;
 }
 
 /* team */
@@ -530,125 +553,146 @@ td {
     bottom: 8%;
     left: 8%;
 }
+
 /* testimonial */
-#testimonials{
+#testimonials {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width:100%;
+    width: 100%;
     background-color: #252525;
-  }
-  .testimonial-heading{
+}
+
+.testimonial-heading {
     letter-spacing: 1px;
-    margin:0px 0px;
+    margin: 0px 0px;
     padding: 20px 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-  .testimonial-heading span{
+}
+
+.testimonial-heading span {
     font-size: 1.3rem;
     color: #fff6f6;
     margin-bottom: 10px;
     letter-spacing: 2px;
     text-transform: uppercase;
-  }
-  .testimonial-box-container{
+}
+
+.testimonial-box-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width:100%;
-  }
-  .testimonial-box{
-    width:450px;
-    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+.testimonial-box {
+    width: 450px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
     background-color: #3c3c3c;
     padding: 20px;
     margin: 15px;
     cursor: pointer;
     border-radius: 10px;
-  }
-  .profile-img{
-    width:50px;
+}
+
+.profile-img {
+    width: 50px;
     height: 50px;
     border-radius: 50%;
     overflow: hidden;
     margin-right: 10px;
-  }
-  .profile-img img{
+}
+
+.profile-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
-  }
-  .profile{
+}
+
+.profile {
     display: flex;
     align-items: center;
-  }
-  .name-user{
+}
+
+.name-user {
     display: flex;
     flex-direction: column;
-  }
-  .name-user strong{
+}
+
+.name-user strong {
     color: #ffeeee;
     font-size: 1.1rem;
     letter-spacing: 0.5px;
-  }
-  .name-user span{
+}
+
+.name-user span {
     color: #ffffff;
     font-size: 0.8rem;
-  }
-  .reviews{
+}
+
+.reviews {
     color: #f9d71c;
-  }
-  .box-top{
+}
+
+.box-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-  }
-  .client-comment p{
+}
+
+.client-comment p {
     font-size: 0.9rem;
     color: #ffffff;
-  }
-  .testimonial-box:hover{
+}
+
+.testimonial-box:hover {
     transform: translateY(-10px);
     transition: all ease 0.3s;
-  }
-  /* media query testimoniaL */
-  @media(max-width:1060px){
-    .testimonial-box{
-        width:45%;
+}
+
+/* media query testimoniaL */
+@media(max-width:1060px) {
+    .testimonial-box {
+        width: 45%;
         padding: 10px;
     }
-  }
-  @media(max-width:790px){
-    .testimonial-box{
-        width:100%;
+}
+
+@media(max-width:790px) {
+    .testimonial-box {
+        width: 100%;
     }
-    .testimonial-heading h1{
+
+    .testimonial-heading h1 {
         font-size: 1.4rem;
     }
-  }
-  @media(max-width:340px){
-    .box-top{
+}
+
+@media(max-width:340px) {
+    .box-top {
         flex-wrap: wrap;
         margin-bottom: 10px;
     }
-    .reviews{
+
+    .reviews {
         margin-top: 10px;
     }
-  }
-  ::selection{
+}
+
+::selection {
     color: #ffffff;
     background-color: #252525;
-  }
-  /* footer section */
-  /* footer section */
+}
+
+/* footer section */
+/* footer section */
 footer {
     background: rgb(34, 34, 34);
 }
@@ -657,15 +701,21 @@ footer {
     padding-top: 30px;
     display: flex;
     gap: 8%;
+    padding-left: 15px;
 
 }
 
 footer .footer-col-1 {
     max-width: 40%;
 }
-.footer-col-2 h1,.footer-col-3 h1{
-font-size: 30px;
+
+.footer-col-2 h1,
+.footer-col-3 h1 {
+    font-size: 30px;
+    text-decoration: underline;
+
 }
+
 footer .footer-col-2 {
 
     max-width: 22%;
@@ -686,6 +736,10 @@ footer .footer-col-1 h1 {
 }
 
 .footer .common-footer li {
+    list-style-type: none;
+}
+
+.footer .common-footer li a {
     list-style: none;
     list-style-type: none;
     color: #ffffff80;
@@ -694,4 +748,19 @@ footer .footer-col-1 h1 {
     font-size: 23px;
     font-weight: 400;
     margin-top: 5px;
+    text-decoration: none;
+}
+
+.footer .common-footer li a:hover {
+    color: #e6533c;
+}
+
+.reserved {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 20px 15px;
 }

@@ -764,3 +764,82 @@ footer .footer-col-1 h1 {
     text-align: center;
     padding: 20px 15px;
 }
+
+/*  */
+.subscribe {
+    height: 440px;
+    border-radius: 16px;
+    background-color: rgb(0, 0, 0);
+    ;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.sub-content img {
+    width: 131.25px;
+    height: 87.78px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+/*button inside */
+.buttonIn {
+    width: 330px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.subscribe h1 {
+    color: rgb(255, 244, 244);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.subscribe p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 500px;
+}
+
+.buttonIn input {
+    margin: 0px;
+    padding: 10px 10px;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    color: #3a372a;
+}
+
+.buttonIn button {
+    position: absolute;
+    top: 0;
+    border-radius: 0px 82px 82px 0px;
+    right: 0px;
+    z-index: 2;
+    border: none;
+    top: 0px;
+    height: 50px;
+    cursor: pointer;
+    color: white;
+    background-color: #e6533c;
+    transform: translateX(20px);
+    padding: 0px 30px;
+}

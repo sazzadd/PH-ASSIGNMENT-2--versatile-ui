@@ -167,4 +167,9 @@
         flex-direction: column;
     }
 
+    .subscribe p {
+        width: 356px;
+        padding: 0px 32px;
+    }
+
 }

@@ -239,10 +239,18 @@ header {
     height: 30px;
     background: rgb(230, 83, 60);
     border-radius: 50%;
+    margin-right: 5px;
+}
+
+.banner-box .circle:hover {
+    width: 33px;
+    height: 33px;
 }
 
 .fa-play {
-    padding: 6px 0px 6px 6px;
+    color: white;
+    padding: 7px 0px 8px 11px;
+    margin-right: 9px;
 }
 
 .banner-box h1 {
@@ -842,4 +850,89 @@ footer .footer-col-1 h1 {
     background-color: #e6533c;
     transform: translateX(20px);
     padding: 0px 30px;
+}
+
+.training-title-des {
+    width: 550px;
+    padding-bottom: 50px;
+}
+
+.training-title-des h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 45px;
+    width: 520px;
+    font-weight: 900;
+    /* padding-left: 20px; */
+}
+
+.training-title-des p {
+    width: 420px;
+}
+
+.training-row1,
+.training-row2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 100%;
+    height: 218px;
+
+}
+
+.trainging-item1 {
+    width: 290px;
+    height: 218px;
+    background-image:
+        linear-gradient(to bottom, rgb(187 61 181 / 52%), rgba(117, 19, 93, 0.73)),
+        url('./images/exercise1.jpg');
+    background-size: cover;
+}
+
+.trainging-item2 {
+    width: 475px;
+    height: 218px;
+    background-image:
+        linear-gradient(to bottom, rgba(219, 30, 30, 0.52), rgba(137, 39, 47, 0.73)),
+        url('./images/exercise2.png');
+    background-size: cover;
+}
+
+.trainging-item3 {
+    width: 296px;
+    height: 218px;
+    background-image:
+        linear-gradient(to bottom, rgba(236, 239, 255, 0), rgba(117, 19, 93, 0)),
+        url('./images/exercise3.png');
+    background-size: cover;
+}
+
+.trainging-item4 {
+    width: 475px;
+    height: 218px;
+    background-image:
+        linear-gradient(to bottom, rgba(219, 217, 105, 0), rgba(117, 19, 93, 0)),
+        url('./images/exercise4.png');
+    background-size: cover;
+}
+
+.trainging-item5 {
+    width: 289px;
+    height: 218px;
+    background-image:
+        linear-gradient(to bottom, rgba(30, 219, 125, 0.52), rgba(39, 137, 80, 0.73)),
+        url('./images/exercise5.jpg');
+    background-size: cover;
+}
+
+.trainging-item6 {
+    width: 296px;
+    height: 218px;
+    background-image:
+        linear-gradient(to bottom, rgba(30, 159, 219, 0.52), rgba(44, 141, 176, 0.73)),
+        url('./images/exercise5.jpg');
+    background-size: cover;
+}
+
+.training-item-container {
+    padding-bottom: 30px;
 }

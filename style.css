@@ -886,6 +886,17 @@ footer .footer-col-1 h1 {
         linear-gradient(to bottom, rgb(187 61 181 / 52%), rgba(117, 19, 93, 0.73)),
         url('./images/exercise1.jpg');
     background-size: cover;
+    position: relative;
+}
+
+.trainging-item1 h1 {
+    color: rgb(255, 244, 244);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
 }
 
 .trainging-item2 {

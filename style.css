@@ -272,7 +272,7 @@ header {
 .banner-box-1 {
     position: absolute;
     left: -55px;
-    bottom: 199px;
+    bottom: 230px;
     gap: 0px;
 }
 
@@ -379,7 +379,6 @@ header {
 .cal-right-content {
     width: 500px;
     height: 150px;
-    padding: 40px auto;
 }
 
 .cal-right .btn {

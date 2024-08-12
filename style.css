@@ -5,7 +5,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 /* reuseable css */
@@ -246,6 +246,7 @@ header {
 .banner-box .circle:hover {
     width: 33px;
     height: 33px;
+    transition: 1s;
 }
 
 .fa-play {

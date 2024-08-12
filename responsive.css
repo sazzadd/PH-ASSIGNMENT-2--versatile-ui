@@ -109,7 +109,7 @@
     .cal {
         flex-direction: column;
         padding: 60px 0;
-        height: 900px;
+        height: 800px;
     }
 
     .cal-right {
@@ -133,9 +133,27 @@
     .input-row-2,
     .input-row-3 {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 10px;
 
+
+    }
+
+    .input-field {
+        width: 130px;
+    }
+
+    .input-row-2 select {
+        width: 140px !important;
+    }
+
+    .input-row-3 select {
+        width: 290px !important;
+        padding-right: 100px;
+    }
+
+    .s1 {
+        padding-right: 56px;
     }
 
     .cal-right .btn {
